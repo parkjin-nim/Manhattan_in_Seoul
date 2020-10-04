@@ -47,7 +47,7 @@ Features of two cities, i vectorized venue categories and venue's frequency of n
 ![alt text][image3]
 
 **New York** 
-![alt text][image3]
+![alt text][image4]
 
 
 ## Results
