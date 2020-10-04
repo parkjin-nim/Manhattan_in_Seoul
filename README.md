@@ -41,7 +41,7 @@ Note that the coordinate data in the file has KR2000 system. We need to change i
 ## Methodology
 Seoul, an area of 605/km2 with 9.8M(2018) population, has 25 districts. New York, an area of 783/km2(land only) with 8.1M population, has 5 boroughs. Considering size, we first compare 2 cities by grouping boroughs of NY and districts of Seoul.
 
-Features of two cities, i vectorized venue categories and venue's frequency of neighborhood. Then i clustered them with k-means(k=5) for a quick (first 5) analysis and comparison. Numerical similarity measurement(i.e., Euclidean or Cosine distance) for the entire dimesions was not calculated.
+Features of two cities, i vectorized venue categories and venue's frequency of neighborhood. Then i clustered them with k-means(k=5) for a quick (first 5) analysis and comparison. Numerical similarity measurement(i.e., Euclidean or Cosine distance) was not calculated.
   
 **Seoul**
 ![alt text][image3]
@@ -59,14 +59,11 @@ Since New York has 5 boroughs, I divided districts of Seoul into 5 clusters. Eac
 -  Geumcheon-gu
 
 ## Discussion
--  Gangnam-gu,etc., group is a commercial place and center activity
+-  Gangnam-gu,etc., group is like a commercial place and center
 -  Jungnang-gu,etc., group is outskirt residential with parks
 -  Gwangjin-gu,etc., group is residential with coffee shops and cafes but less fast foods
 -  Jongno-gu,etc., group is Cultural & Tourist area & Hub
 -  Geumcheon-gu group is residential with fast foods
 
-Manhattan is a place of Park,Exhibit,Art Museum,Yoga Studio,Plaza,Bakery,Garden,Bookstore,American Restaurant,Coffee Shop. And Exhibit, Art Museum seem to be important distinguishing features when Mahattan is compared with districs of Seoul.
-
-The only group with those features is Group0(Jongno-gu, Jung-gu), since it is a place of, Korean Restaurant, Historic Site,Palace,Art Gallery,Art Museum,Italian Restaurant,Japanese Restaurant,Bookstore, Coffee Shop,Tea Room.
-
-So, travelling folks!, if you want to find a neighborhood like Manhattan in Seoul, it is not Gang-nam as in Psy's song, but Jongro-gu in Seoul, according to my simple data science analysis!
+Manhattan is a place of Park,Exhibit,Art Museum,Yoga Studio,Plaza,Bakery,Garden,Bookstore,American Restaurant,Coffee Shop. 
+It looks close to Cultural & Tourist are & Hub. Except 'Park' which usually belongs to a residential group in S.Korea, it looks similiar to Jongno-gu, etc. group, according to the analysis in 2018.  
