@@ -66,4 +66,4 @@ Since New York has 5 boroughs, I divided districts of Seoul into 5 clusters. Eac
 -  Geumcheon-gu group is residential with fast foods
 
 Manhattan is a place of Park,Exhibit,Art Museum,Yoga Studio,Plaza,Bakery,Garden,Bookstore,American Restaurant,Coffee Shop. 
-It looks close to Cultural & Tourist are & Hub. Except 'Park' which usually belongs to a residential group in S.Korea, it looks similiar to Jongno-gu, etc. group, according to the analysis in 2018.  
+It looks close to Cultural & Tourist & Hub. Except 'Park' which usually belongs to a residential group in S.Korea, it looks similiar to Jongno-gu, etc. group, according to the analysis in 2018.  
