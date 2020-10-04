@@ -41,7 +41,7 @@ Note that the coordinate data in the file has KR2000 system. We need to change i
 ## Methodology
 Seoul, an area of 605/km2 with 9.8M(2018) population, has 25 districts. New York, an area of 783/km2(land only) with 8.1M population, has 5 boroughs. Considering size, we first compare 2 cities by grouping boroughs of NY and districts of Seoul.
 
-Features of two cities, i vectorized venue categories and venue's frequency of neighborhood. Then i clustered them with k-means(k=5) for a quick (first 5) analysis and comparison. Numerical similarity measurement(i.e., Euclidean or Cosine distance) was not calculated.
+As features, i vectorized venue categories and frequency information around each district from Foursquare. Then i clustered them with k-means(k=5) for simple analysis. Numerical similarity measurement(i.e., Euclidean or Cosine distance) was left as a future wark because of weighting issue. 
   
 **Seoul**
 ![alt text][image3]
