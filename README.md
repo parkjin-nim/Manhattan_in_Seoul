@@ -41,7 +41,7 @@ Note that the coordinate data in the file has KR2000 system. We need to change i
 ## Methodology
 Seoul, an area of 605/km2 with 9.8M(2018) population, has 25 districts. New York, an area of 783/km2(land only) with 8.1M population, has 5 boroughs. Considering size, we first compare 2 cities by grouping boroughs of NY and districts of Seoul.
 
-As features, i vectorized venue categories and frequency information around each district from Foursquare. Then i clustered them with k-means(k=5) for simple analysis. Numerical similarity measurement(i.e., Euclidean or Cosine distance) was left as a future wark because of weighting issue. 
+As features, i vectorized venue categories and frequency information around each district from Foursquare. Then i clustered them with k-means(k=5) for simple analysis. For now, numerical similarity measurement(i.e., Euclidean or Cosine distance) was not calculated.
   
 **Seoul**
 ![alt text][image3]
@@ -66,4 +66,4 @@ Since New York has 5 boroughs, I divided districts of Seoul into 5 clusters. Eac
 -  Geumcheon-gu group is residential with fast foods
 
 Manhattan is a place of Park,Exhibit,Art Museum,Yoga Studio,Plaza,Bakery,Garden,Bookstore,American Restaurant,Coffee Shop. 
-It looks close to Cultural & Tourist & Hub. Except 'Park' which usually belongs to a residential group in S.Korea, it looks similiar to Jongno-gu, etc. group, according to the analysis in 2018.  
+It looks close to Cultural & Tourist & Hub. Except 'Park' which usually belongs to a residential group in Seoul, it looks similiar to Jongno-gu group, according to the analysis in 2018.  
